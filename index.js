@@ -1,4 +1,4 @@
-const StepFunctionsLocal = require('stepfunctions-localhost');
+const StepFunctionsLocal = require('stepfunctions-local-wrapper');
 const AWS = require('aws-sdk');
 const tcpPortUsed = require('tcp-port-used');
 const chalk = require('chalk');
